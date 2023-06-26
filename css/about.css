@@ -43,11 +43,20 @@ nav {
   height: 65px;
   width: 100%;
   grid-template-columns: 10em 10em 10em 25em 28em;
+
+}
+
+.nav-links li a:hover {
+  color: #FD7014;
 }
 
 .nav-links {
   width: 400px;
   display: contents;
+}
+
+.nav-link:hover {
+  color: #FD7014;
 }
 
 .nav-links li {
@@ -63,6 +72,7 @@ nav {
   font-size: 20px;
   color: #222831;
   align-items: center;
+  transition-duration: 0.4s;
 }
 
 #logo {
@@ -94,9 +104,10 @@ nav {
   display: grid;
   text-align: center;
   box-sizing: border-box;
-  font-size: 25px;
+  font-size: 20px;
   color: #222831;
   align-items: center;
+  transition-duration: 0.4s;
 }
 
 /*Header (END)*/
@@ -150,8 +161,12 @@ nav {
   letter-spacing: -1px;
   transform: rotate(180deg);
   writing-mode: vertical-rl;
+  transition-duration: 0.4s;
 }
 
+.footer-element-onTop:hover{
+  color: #222831;
+}
 /*Footer (END)*/
 .logo {
   height: 30px;
